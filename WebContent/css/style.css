@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section, img {
+	display: block;
+}
+
+body {
+	background: url("../images/background.jpg") no-repeat;
+	background-size: cover;
+	width: 640px;
+	margin: 0 auto;
+	font-family: "Alef", "Arial", "sans-serif";
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, textarea, select, option {
+	resize: none;
+	outline: none;
+	-webkit-border-radius: 0px;
+	border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.wrapper>h3 {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.form-control {
+	width: 88%;
+	float: right;
+}
+
+.btn-default {
+	float: right;
+}
+
+.searchResultWrapper {
+	width: 100%;
+	background: #fff;
+	border-radius: 10px;
+	float: right;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+
+.searchHeadLine {
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	background: #ccc;
+}
+
+.searchShortCut {
+	padding-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	background: #ccc;
+}
+
+.songBackground {
+	background: #fff;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.btn-info {
+	float: right;
+	margin-top: 20px;
+}
+
+#song {
+	display: none;
+	margin-top: 14%;
+}
+
+.highlight {
+	background-color: orange;
+}
+
+/*		LOGIN		*/
+.loginWrapper {
+	width: 100%;
+	background: #fff;
+	border-radius: 10px;
+	float: right;
+	margin: 10px 0px;
+	padding: 20px;
+}
+
+.loginWrapper>h3, .loginWrapper>h5, .students>h3, .students>h5 {
+	color: #000;
+	text-align: right;
+	margin-right: 38px;
+}
+
+.files {
+	float: left;
+	margin: 20px 0px 33px 55px;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+#backTologin {
+	margin-top: 30px !important;
+	margin-right: 4px !important;
+}
+
+.students {
+	float: right;
+	display: block;
+	width: 100%;
+}
+
+.enableDocs, .disableDocs {
+	float: left;
+	width: 60%;
+}
+
+.upload {
+	float: left;
+}
+
+.loginWrapper>h1 {
+	color: #000;
+	text-align: center;
+	font-size: 26px;
+}
+
+.help {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.centerize {
+	width: 28%;
+	margin: 0 auto;
+}
+
+.centerize>a {
+	float: left;
+}
+
+.centerize>a>button {
+	margin: 0px 10px;
+}
+
+.help {
+	display: block;
+	background: #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	float: left;
+	width: 100%;
+}
+#song > button{float:left;}
+#backToSearchIndex {
+	float: left;
+	margin: 20px 0px 33px 55px;
+}
+#print{float:right}
